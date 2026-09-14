@@ -1,8 +1,8 @@
 {
-  "$schema": "../../public/schemas/plugin.schema.json",
+  "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "theme-terminal",
   "name": "终端机",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "icon": "resources/icon.svg",
   "description": "极限壳主题——font 域·字族轴：ui/mono 双键全指 Cascadia Mono 等宽族 + 绿字黑底终端配色（#50.27 效果验收端到端裁决，gallery ⑨ 壳真实落地）",
   "author": "LinkDesk",
