@@ -11,7 +11,7 @@
 一个深色主题插件：选定后，LinkDesk 的**每一块界面**都按磷光绿终端配色重绘——窗口、侧栏、状态栏、弹层——同时把界面与等宽两套字族都指向 **Cascadia Mono**，让整个软件读起来像一台终端。
 
 - 插件 ID：`theme-terminal`
-- 主题 ID：`terminal-monofont`（标签「终端机 Terminal Mono」）
+- 主题 ID：`theme-terminal.terminal-monofont`（标签「终端机 Terminal Mono」）
 - 模式：深色（dark）
 - 作者：LinkDesk
 
