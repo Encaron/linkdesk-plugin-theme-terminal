@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json",
   "id": "theme-terminal.terminal-monofont",
-  "name": "终端机 Terminal Mono",
+  "name": "终端机",
   "type": "dark",
   "appearance": {
     "font": {
