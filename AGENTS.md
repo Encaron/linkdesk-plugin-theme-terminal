@@ -1,7 +1,7 @@
 # 终端机（theme-terminal）——LinkDesk 插件仓
 
 > **本文件是给在这个仓里干活的 AI 看的**（Claude Code / Codex / Cursor / …）。人看 `README.md`。
-> 插件身份的唯一来源 = `plugin.json` 顶层的 `pluginId`（本仓：`theme-terminal`）。当前版本 `1.0.6`。
+> 插件身份的唯一来源 = `plugin.json` 顶层的 `pluginId`（本仓：`theme-terminal`）。当前版本 `1.0.7`。
 
 ## 1. 这是什么
 
@@ -29,7 +29,6 @@
 
 **本仓没有 `src/`** —— 它是「数据插件」：能力全在 `plugin.json` 的声明 ＋ 数据文件里。
 
-**本仓没有 `i18n/`** —— 文案 key 就是中文原文，英文由语言包插件（`lang-defaults`）提供。
 
 - 少数带完整封面的主题之一（`resources/cover.svg` ＋ `icon.svg`）。
 - 配方顶层键用 `appearance`。
