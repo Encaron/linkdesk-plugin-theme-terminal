@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-30T22:00:25.167Z",
+  "updatedAt": "2026-10-03T15:36:09.575Z",
   "plugins": [
     {
       "id": "theme-terminal",
       "name": "终端机",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "description": "极限壳主题——font 域·字族轴：ui/mono 双键全指 Cascadia Mono 等宽族 + 绿字黑底终端配色（#50.27 效果验收端到端裁决，gallery ⑨ 壳真实落地）",
       "author": {
         "name": "LinkDesk"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-terminal/v1.0.9/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-terminal/v1.0.10/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-terminal/v1.0.9/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-terminal/releases/download/v1.0.9/theme-terminal.linkdesk-plugin",
-      "size": 9735,
-      "publishedAt": "2026-09-30T22:00:25.167Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-terminal/v1.0.10/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-terminal/releases/download/v1.0.10/theme-terminal.linkdesk-plugin",
+      "size": 10104,
+      "publishedAt": "2026-10-03T15:36:09.575Z",
       "versions": [
+        {
+          "version": "1.0.10",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-terminal/releases/download/v1.0.10/theme-terminal.linkdesk-plugin",
+          "publishedAt": "2026-10-03T15:36:09.575Z",
+          "changelog": "- **清掉一个壳从不读的死键**：colorway 里的 `icon-active` 已删（主题写它无效——图标墨色由壳按当前主题的文字色自动派生，作者无需也无法给图标指定颜色）；**`icon-inactive` 保留**（它是欢迎页「非激活图标」的真实用色，删掉会改观感）。"
+        },
         {
           "version": "1.0.9",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-terminal/releases/download/v1.0.9/theme-terminal.linkdesk-plugin",
@@ -44,8 +50,7 @@
         {
           "version": "1.0.5",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-terminal/releases/download/v1.0.5/theme-terminal.linkdesk-plugin",
-          "publishedAt": "2026-09-14T17:31:29.568Z",
-          "changelog": "- 配方 `$schema` 改**文档唯一认可的写法**（`./node_modules/@linkdesk/plugin-sdk/schemas/theme.schema.json`，相对工程根）——原来用的是已作废的越界相对路径（`../..` 一路指到壳仓 `public/schemas/`，脱离壳仓后编辑器的补全与校验全失效）\n- 分发件随包带 **MIT 许可证**（`LICENSE`）——MIT 要求副本里带版权声明，而 zip 才是用户真正拿到的那份\n- 新增 `AGENTS.md`：在这个仓里单开 AI 干活时的进场说明（这只插件是什么 / 规矩在哪 / 命令怎么敲）"
+          "publishedAt": "2026-09-14T17:31:29.568Z"
         },
         {
           "version": "1.0.4",
