@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "theme-terminal",
   "name": "终端机",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "category": "themes",
   "categories": ["color-scheme"],
   "icon": "resources/icon.svg",
